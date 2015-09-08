@@ -1,5 +1,7 @@
 <?php
 
+//for xss auditor in Chrome and Safari
+header("X-XSS-Protection: 0");
 $page = $_GET['page'];
 
 ?>
@@ -10,8 +12,7 @@ $page = $_GET['page'];
    <title>XSS TEST</title>
 </head>
 <body>
-    <h1>
+	<a href="login.php">登入</a>
     <h2><?php echo "page:" . $page; ?></h2>
-
 </body>
 </html>
