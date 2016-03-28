@@ -5,7 +5,7 @@
 * Hackyou use img src or iframe to make a request which need authorization to hackme server
 
 ```html
-<img src="http://hackme.com/csrf/change.php?award=1"> 
+<img src="http://hackme.com/csrf/exchange.php?award=1"> 
 ```
 
 ## Defence
